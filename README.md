@@ -22,3 +22,7 @@ URL amqp://guest:guest@localhost:5672 adalah alamat koneksi yang digunakan oleh 
 ![Alt text](images/image4.jpg)
 
  Publisher mengirim pesan ke RabbitMQ, dan Subscriber mengambil dan memproses pesan-pesan tersebut, sebagaimana yang terlihat di konsol. Ini menunjukkan bagaimana Publisher dan Subscriber berinteraksi menggunakan RabbitMQ sebagai perantara pesan dengan fungsionalitas dasar.
+
+ # Monitoring chart based on publisher.
+![Alt text](images/image5.jpg)
+Dengan memperhatikan peningkatan pada grafik RabbitMQ saat melakukan operasi penerbitan berulang, kita dapat secara visual melihat bagaimana aktivitas penerbitan memengaruhi antrian pesan di RabbitMQ. Ini memberikan gambaran yang jelas tentang bagaimana pesan antri dan diproses menggunakan RabbitMQ, yang sangat berguna untuk memahami mekanisme antrian pesan dan pemrosesan dalam konteks RabbitMQ.
