@@ -14,3 +14,11 @@ URL amqp://guest:guest@localhost:5672 adalah alamat koneksi yang digunakan oleh 
 
 # Running RabbitMQ as message broker.
 ![Alt text](images/image1.jpg)
+
+
+# “Sending and processing event.
+![Alt text](images/image2.jpg)
+![Alt text](images/image3.jpg)
+![Alt text](images/image4.jpg)
+
+ Publisher mengirim pesan ke RabbitMQ, dan Subscriber mengambil dan memproses pesan-pesan tersebut, sebagaimana yang terlihat di konsol. Ini menunjukkan bagaimana Publisher dan Subscriber berinteraksi menggunakan RabbitMQ sebagai perantara pesan dengan fungsionalitas dasar.
