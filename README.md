@@ -11,3 +11,6 @@ URL amqp://guest:guest@localhost:5672 adalah alamat koneksi yang digunakan oleh 
 - 5672 adalah port default yang digunakan RabbitMQ untuk koneksi AMQP.
 
 - Fakta bahwa Publisher dan Subscriber menggunakan URL yang sama menandakan bahwa keduanya berkomunikasi dengan message broker yang sama. Publisher bertugas untuk mengirimkan pesan ke antrian (queue), sedangkan Subscriber bertugas sebagai listener yang akan mengambil dan memproses pesan dari antrian tersebut. Inilah cara kerja sistem message-oriented middleware — yaitu dengan peran pengirim dan penerima yang terpisah namun terhubung melalui satu server pusat (broker).
+
+# Running RabbitMQ as message broker.
+![Alt text](images/image1.jpg)
